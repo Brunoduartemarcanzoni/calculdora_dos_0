@@ -7,16 +7,15 @@
     <title>calculadora</title>
 </head>
 <body>
-    <h3>Resolução de Equação do Segundo Grau</h3>
-    Equação na forma: ax²+ bx + c = 0<br>  
-    <input type="text" name="" id="zeroum" placeholder="A">
-    <input type="text" name="" id="zerodois" placeholder="B">
-    <input type="text" name="" id="zerotres" placeholder="C">
-    <div>
-        <input type="radio" name="operação" value="Delta">Delta
-    </div>
+    <h1>Resolução de Equação do Segundo Grau</h1>
+    Equação na forma: ax²+ bx + c = 0<br>
+    <input type="number" name="val_a" value="1"><br>
+    <input type="number" name="val_b" value="0"><br>
+    <input type="number" name="val_c" value="0"><br>
     <button onclick="calcular()">calcular</button>
-    <link rel="stylesheet" href="script.js">
-    <link rel="stylesheet" href="style.css">
+    <h2>Resposta</h2>
+    <span id="res_1"></span>
+    <span id="res_2"></span>
+    <script src="script.js"></script>
 </body>
 </html>
